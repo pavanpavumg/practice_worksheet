@@ -112,7 +112,7 @@ class SinglyLinkedList:
         if(self.head == None):
             return
         #one node
-        if(slef.head.next == None):
+        if(self.head.next == None):
             self.head = None
             return
         #2 or more list
@@ -153,3 +153,7 @@ if __name__ == "__main__":
 
     linked_list.delete_at_position()
     linked_list.display()
+
+
+
+
